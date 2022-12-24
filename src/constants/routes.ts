@@ -1,7 +1,7 @@
 export enum PageRoutes {
   Index = '/',
-  FormModalSvgIconsExample = 'form-modal-svg-icons-example',
   ReduxExamplePage = 'redux-example-page',
   FontsExamplePage = 'fonts-example-page',
+  SvgIconsExample = 'svg-icons-example',
   DataFetchByRtkQueryExamplePage = 'data-fetch-by-rtk-query-example-page',
 }

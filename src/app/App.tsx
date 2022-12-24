@@ -5,8 +5,8 @@ import MainPage from 'src/components/pages/main-page/main-page';
 import { PageRoutes } from 'src/constants/routes';
 import WrappedSvgSprite from 'src/hocks/wrapped-svg-sprite/wrapped-svg-sprite';
 
-const FormModalSvgIconsExample = lazy(
-  () => import('src/components/pages/form-modal-svg-icons-example/form-modal-svg-icons-example'),
+const SvgIconsExample = lazy(
+  () => import('src/components/pages/svg-icons-example/svg-icons-example'),
 );
 const ReduxExamplePage = lazy(
   () => import('src/components/pages/redux-example-page/redux-example-page'),
@@ -28,10 +28,10 @@ function App() {
         <Route path={PageRoutes.Index}>
           <Route index element={<MainPage />} />
           <Route
-            path={PageRoutes.FormModalSvgIconsExample}
+            path={PageRoutes.SvgIconsExample}
             element={
               <Suspense fallback={<>...</>}>
-                <FormModalSvgIconsExample />
+                <SvgIconsExample />
               </Suspense>
             }
           />
