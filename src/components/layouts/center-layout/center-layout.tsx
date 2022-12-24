@@ -1,8 +1,8 @@
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 
 import './center-layout.scss';
 
-function CenterLayout({ children }: PropsWithChildren<any>) {
+function CenterLayout({ children }: PropsWithChildren<Record<string, unknown>>) {
   return <div className="center-layout">{children}</div>;
 }
 
