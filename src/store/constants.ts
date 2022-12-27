@@ -1,3 +1,3 @@
 export enum SliceNameSpace {
-  MainPage = 'MAIN_PAGE',
+  MainFilter = 'MAIN_FILTER',
 }

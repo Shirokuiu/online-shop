@@ -16,7 +16,7 @@ describe('Проверка компонента App', () => {
   describe('Проверка отрисовки', () => {
     it('Компонент корректно отрисовывается', () => {
       const store = mockStore({
-        [SliceNameSpace.MainPage]: {
+        [SliceNameSpace.MainFilter]: {
           title: 'Hello',
         },
       });
